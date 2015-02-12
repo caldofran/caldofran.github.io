@@ -14,7 +14,6 @@ permalink:      /:title.html
 markdown:       redcarpet
 highlighter:    pygments
 include:        ["_pages"]
-exclude: 		[vendor]
 
 #
 # Jekyll serve settings
