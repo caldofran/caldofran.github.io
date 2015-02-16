@@ -33,7 +33,7 @@ node_modules
 bower_components
 
 # Project specified
-#_site
+_site
 _app/assets/js
 _app/assets/css
 
