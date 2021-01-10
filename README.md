@@ -6,39 +6,44 @@
 
 _**December 2015 - Present**_
 
-Developing the iOS app.
-Implementing new endpoints on the BFF implemented using Phoenix and Elixir.
-Contributing with small features to the Android application.
+My main goal at Jobandtalent is to mantain and add new features to the mobile applications. Most of my time, I work on the iOS platform but the Android team lets me contribute to the Android app from time to time.
+
+I don't only add new features but also help to the iOS Core team to improve the platform infraestructure and tooling.
+
+I also create new endpoints for the mobile BFF (backend for frontend) implemented using Phoenix and Elixir.
 
 ## Produkt Studio
 
 _**June 2015 - December 2015**_
 
-Developing iOS apps for different clients.
+At Produkt Studio I was workig as iOS Developer for the Dollz Kill iPhone app in collaboration with the Agile Monkeys company.
 
 ## Freelance
 
 _**February 2015 - June 2015**_
 
-Developing the iPad app Visa Card Lab for Visa
+I was working some time as a freelance contructor. During that time I developed an internal iPad application for Visa called Visa Card Lab. The main challenge of this app was to fulfill Visa security requirements.
 
 ## Critizen
 
 _**July 2014 - January 2015**_
 
-iOS Lead Developer. Build and lead the iOS team to develop the Critizen app.
+At NextChange S.L. I was in charge of building and leading the iOS team responsible of developing the Critizen app.
 
-## minube.com
+## Minube
 
 _**October 2011 - July 2014**_
 
-Developing minube app which was build for iPhone and iPad. Also developing minube guides app which was also build for iPhone and iPad.
+At minube.com I was part of a small team in charge of developing minube iOS applications:
+
+- minube.com universal iOS app.
+- Minube guides universal app.
 
 ## Atos Research & Innovation
 
 _**June 2008 - March 2011**_
 
-Part of the Security Lab, carrying out managerial and development tasks in several projects for the Eurpean Community.
+I was part of the Security Lab, carrying out managerial and development tasks in several projects for the Eurpean Community.
 
 # Education
 
