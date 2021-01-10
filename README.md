@@ -2,6 +2,8 @@ Contact me by email at [ruben.mendez@gmail.com](mailto:ruben.mendez@gmail.com) o
 
 # Experience
 
+---
+
 ### Jobandtalent
 
 ##### December 2015 - Present
