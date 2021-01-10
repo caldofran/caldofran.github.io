@@ -2,9 +2,9 @@ Contact me by email at [ruben.mendez@gmail.com](mailto:ruben.mendez@gmail.com) o
 
 # Experience
 
-## Jobandtalent
+### Jobandtalent
 
-### December 2015 - Present
+##### December 2015 - Present
 
 Developing the iOS app.
 Implementing new endpoints on the BFF implemented using Phoenix and Elixir.
