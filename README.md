@@ -4,9 +4,7 @@ Contact me by email at [ruben.mendez@gmail.com](mailto:ruben.mendez@gmail.com) o
 
 ---
 
-### Jobandtalent
-
-##### December 2015 - Present
+### Jobandtalent (December 2015 - Present)
 
 Developing the iOS app.
 Implementing new endpoints on the BFF implemented using Phoenix and Elixir.
@@ -14,8 +12,7 @@ Contributing with small features to the Android application.
 
 ## Produkt Studio
 
-### June 2015 - December 2015
-
+_June 2015 - December 2015_
 Developing iOS apps for different clients.
 
 ## Freelance
@@ -34,7 +31,7 @@ iOS Lead Developer. Build and lead the iOS team to develop the Critizen app.
 
 ### October 2011 - July 2014
 
-Developing minube app which was build for iPhone and iPad. Also developing minube guides app which was also build for iPhone and iPad.
+> Developing minube app which was build for iPhone and iPad. Also developing minube guides app which was also build for iPhone and iPad.
 
 ## Atos Research & Innovation
 
