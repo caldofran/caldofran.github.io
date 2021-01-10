@@ -4,7 +4,7 @@
 
 ---
 
-### Jobandtalent
+## Jobandtalent
 
 _**December 2015 - Present**_
 
@@ -14,31 +14,31 @@ Contributing with small features to the Android application.
 
 ## Produkt Studio
 
-_June 2015 - December 2015_
+_**June 2015 - December 2015**_
 
 Developing iOS apps for different clients.
 
 ## Freelance
 
-_February 2015 - June 2015_
+_**February 2015 - June 2015**_
 
 Developing the iPad app Visa Card Lab for Visa
 
 ## Critizen
 
-_July 2014 - January 2015_
+_**July 2014 - January 2015**_
 
 iOS Lead Developer. Build and lead the iOS team to develop the Critizen app.
 
 ## minube.com
 
-_October 2011 - July 2014_
+_**October 2011 - July 2014**_
 
 Developing minube app which was build for iPhone and iPad. Also developing minube guides app which was also build for iPhone and iPad.
 
 ## Atos Research & Innovation
 
-_June 2008 - March 2011_
+_**June 2008 - March 2011**_
 
 Part of the Security Lab, carrying out managerial and development tasks in several projects for the Eurpean Community.
 
@@ -48,13 +48,13 @@ Part of the Security Lab, carrying out managerial and development tasks in sever
 
 ## Universidad Oberta de Catalunya
 
-_2010 - 2012_
+_**2010 - 2012**_
 
 Master's Degree in Open Source Software
 
 ## Universidad de Valladolid
 
-_2001 - 2007_
+_**2001 - 2007**_
 
 Bachelor's Degree in Telecommunications Engineering
 
