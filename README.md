@@ -1,31 +1,60 @@
-# Almace Scaffolding
-[![devDependency Status](https://david-dm.org/sparanoid/almace-scaffolding/dev-status.svg)](https://david-dm.org/sparanoid/almace-scaffolding#info=devDependencies)
+# Rubén Méndez Puente
 
-`AMSF`, a.k.a. **Almace Scaffolding**, a super-fast Jekyll framework. Supports live reloading (BrowserSync), LESS, HTML minification, inlined stylesheets and more. Available for [Jekyll](http://jekyllrb.com/) right now (will be available for more platforms in the future).
+Software Engineer working from Madrid (Spain)
 
------
+[Github](https://github.com/caldofran)
 
-## [Getting Started](http://sparanoid.com/lab/amsf/getting-started.html)
+[LinkedIn](https://www.linkedin.com/in/rubenmendezp/)
 
-## Donate
+[Twitter](https://twitter.com/Karpov)
 
-Wanna buy me a cup of coffee? [Great](http://sparanoid.com/donate/).
+Contact me by email at [ruben.mendez@gmail.com](mailto:ruben.mendez@gmail.com) or by phone [(+34) 658 58 00 56](tel:+34658580056)
 
-## Author
+## Experience
 
-**Tunghsiao Liu**
+### Jobandtalent
+#### December 2015 - Present
+Developing the iOS app.
+Implementing new endpoints on the BFF implemented using Phoenix and Elixir.
+Contributing with small features to the Android application.
 
-- Twitter: @[tunghsiao](http://twitter.com/tunghsiao)
-- GitHub: @[sparanoid](http://github.com/sparanoid)
+### Produkt Studio
+#### June 2015 - December 2015
+Developing iOS apps for different clients.
 
-## Licenses
+### Freelance
+#### February 2015 - June 2015
+Developing the iPad app Visa Card Lab for Visa 
 
-Following files, directories and their contents are copyright Tunghsiao Liu and licensed under a [CC BY-NC-ND 3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/). You may not reuse anything therein without permission:
+### Critizen
+#### July 2014 - January 2015
+iOS Lead Developer. Build and lead the iOS team to develop the Critizen app.
 
-- `./_app/_posts/`
-- `./_app/apple-touch-icon.png`
-- `./_app/favicon.ico`
+### minube.com
+#### October 2011 - July 2014
+Developing minube app which was build for iPhone and iPad. Also developing minube guides app which was also build for iPhone and iPad.
 
-All other files and directories are licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php) unless explicitly stated.
+### Atos Research & Innovation
+#### June 2008 - March 2011
+Part of the Security Lab, carrying out managerial and development tasks in several projects for the Eurpean Community.
 
-© Tunghsiao Liu. Rights reserved as indicated above.
+## Education
+
+### Universidad Oberta de Catalunya
+Master's Degree in Open Source Software (2010 - 2012)
+
+### Universidad de Valladolid
+Bachelor's Degree in Telecommunications Engineering (2001 - 2007)
+
+## Publications
+
+[The Navigator - Another Twist to iOS Navigations](https://jobandtalent.engineering/the-navigator-420b24fc57da?source=friends_link&sk=a0dbbedd3f087f0750a3cdc072e679d3)
+
+In this post I talk about the different approaches about app navigation followed to develop the Jobantalent app, how and why we moved from more complex designs to a simpler one. 
+
+## Side projects
+
+[CaldoConf](https://github.com/caldofran/caldoconf-mobile)
+
+I am using this small side project to learn Kotlin and Android development. In addition, I am trying a multiplaform development approach using [Kotlin Multiplatform](https://kotlinlang.org/lp/mobile/) to share logic between the Android and the iOS app.
+
