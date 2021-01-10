@@ -1,4 +1,4 @@
-Contact me by email at mailto:ruben.mendez@gmail.com or by phone tel:[phone removed]
+Contact me by email at [ruben.mendez@gmail.com](mailto:ruben.mendez@gmail.com) or by phone [[phone removed]](tel:[phone removed])
 
 # Experience
 
