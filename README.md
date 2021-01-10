@@ -1,4 +1,4 @@
-Contact me by email at mailto:ruben.mendez@gmail.com or by phone tel:+34658580056
+Contact me by email at [ruben.mendez@gmail.com](mailto:ruben.mendez@gmail.com) or by phone [(+34) 658 58 00 56](tel:+34658580056)
 
 # Experience
 
