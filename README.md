@@ -1,3 +1,5 @@
+Contact me by email at mailto:ruben.mendez@gmail.com or by phone tel:+34658580056
+
 # Experience
 
 ---
@@ -71,5 +73,3 @@ In this post I talk about the different approaches about app navigation followed
 [CaldoConf](https://github.com/caldofran/caldoconf-mobile)
 
 I am using this small side project to learn Kotlin and Android development. In addition, I am trying a multiplaform development approach using [Kotlin Multiplatform](https://kotlinlang.org/lp/mobile/) to share logic between the Android and the iOS app.
-
-> Contact me by email at [ruben.mendez@gmail.com](mailto:ruben.mendez@gmail.com) or by phone [(+34) 658 58 00 56](tel:+34658580056)
