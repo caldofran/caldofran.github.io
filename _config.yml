@@ -2,4 +2,4 @@ theme: jekyll-theme-slate
 title: Rubén Méndez Puente
 description: Software Engineer working from Madrid (Spain)
 github:
-  is_project_page: false
+  is_project_page: False
