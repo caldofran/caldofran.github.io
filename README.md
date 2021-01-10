@@ -6,7 +6,7 @@
 
 ### Jobandtalent
 
-_December 2015 - Present_
+_**December 2015 - Present**_
 
 Developing the iOS app.
 Implementing new endpoints on the BFF implemented using Phoenix and Elixir.
