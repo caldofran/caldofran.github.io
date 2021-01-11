@@ -6,21 +6,21 @@
 
 _**December 2015 - Present**_
 
-My main goal at [Jobandtalent](https://jobandtalent.com/) is to maintain and add new features to the mobile applications. I spend most of my time working on the iOS application but I also contribute to the Android app when needed.
+My main goal at [Jobandtalent](https://jobandtalent.com/) is to maintain and add new features to the mobile applications. I spend most of my time working on the iOS application but also contributing to the Android app when needed.
 
-I am very focused on the product side but I also help the iOS Core team to improve the platform infrastructure and tooling.
+Although I am very focused on the product side, I also help the iOS Core team to improve the platform infrastructure and tooling.
 
-My tasks are not only mobile-centered, besides that, I develop new features on the backend side.
+My tasks are not only mobile-centered but I also develop new features on the backend side.
 
 ## Independent contractor
 
 _**February 2015 - December 2015**_
 
-For some time I was working independently as an iOS developer for different clients.
+For some time, I was working independently as an iOS developer for different clients.
 
 Concretely, I help to the [Agile Monkeys](https://www.theagilemonkeys.com/) to build a clothing shopping app for the [Dolls Kill brand](https://www.dollskill.com/)
 
-In addition, I developed an enterprise app for Visa, Inc. called Visa Card Lab which main challenge was to fulfill Visa security requirements.
+Besides, I developed an enterprise app for Visa, Inc. called Visa Card Lab. The main challenge was to fulfill Visa security requirements.
 
 ## Critizen
 
@@ -28,7 +28,7 @@ _**July 2014 - January 2015**_
 
 At [Next Chance Invest](https://www.linkedin.com/company/nextchance-invest/about/) I was the iOS Lead Developer in charge of the build process of the Critizen app.
 
-My main responsibilities were defining the iOS app architecture, lead the development process as well as managing the iOS development team.
+My main responsibilities were defining the iOS app architecture, leading the development process as well as managing the iOS development team.
 
 ## Minube
 
@@ -72,4 +72,4 @@ In this post, I talk about the different approaches followed to architecture the
 
 [CaldoConf](https://github.com/caldofran/caldoconf-mobile)
 
-I am using this small side project to learn Kotlin and Android development. In addition, I am trying a multiplatform development approach using [Kotlin Multiplatform](https://kotlinlang.org/lp/mobile/) to share logic between the Android and the iOS app.
+I am using this small side project to learn Kotlin and Android development. Besides, I am trying a multiplatform development approach using [Kotlin Multiplatform](https://kotlinlang.org/lp/mobile/) to share logic between the Android and the iOS app.
