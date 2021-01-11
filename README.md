@@ -18,7 +18,7 @@ _**February 2015 - December 2015**_
 
 For some time, I was working independently as an iOS developer for different clients.
 
-Concretely, I help to the [Agile Monkeys](https://www.theagilemonkeys.com/) to build a clothing shopping app for the [Dolls Kill brand](https://www.dollskill.com/)
+Concretely, I help to the [Agile Monkeys](https://www.theagilemonkeys.com/) to build a clothing shopping app for the [Dolls Kill](https://www.dollskill.com/) brand.
 
 Besides, I developed an enterprise app for Visa, Inc. called Visa Card Lab. The main challenge was to fulfill Visa security requirements.
 
