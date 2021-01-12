@@ -6,7 +6,7 @@
 
 _**December 2015 - Present**_
 
-My main responsibility at Jobandtalent is to build new features and improve the product by working in different functional squats. Despite my focus is on the iOS application I am involved in the whole product definition and implementation lifecycle. This could even include developing features on the backend side and contribute to the Android application.
+My main responsibility at [Jobandtalent](https://jobandtalent.com/) is to build new features and improve the product by working in different functional squats. Despite my focus is on the iOS application I am involved in the whole product definition and implementation lifecycle. This could even include developing features on the backend side and contribute to the Android application.
 
 Furthermore, I help the iOS guild to improve the platform infrastructure and tooling.
 
@@ -34,9 +34,9 @@ _**October 2011 - July 2014**_
 
 I've started my career as iOS developer at [Minube](https://www.minube.com/). I joined a small but very committed development team in charge of developing the iOS applications of this traveling social network company.
 
-Concretely, the minube app was an application which not only gave access to the whole content of minube but also added new features only possible on mobile devices.
+Concretely, the Minube app was an application which not only gave access to the whole content of the social network but also added new features only possible on mobile devices.
 
-Besides, we developed minube guides, a white brand travel guide application that could be customized depending on the travel destinations or customer needs.
+Besides, we developed Minube guides, a white brand travel guide application that could be customized depending on the travel destinations or customer needs.
 
 ## Atos Research & Innovation
 
