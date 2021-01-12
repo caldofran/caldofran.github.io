@@ -14,7 +14,7 @@ Furthermore, I help the iOS guild to improve the platform infrastructure and too
 
 _**June 2015 - December 2015**_
 
-I help to the [Agile Monkeys](https://www.theagilemonkeys.com/) to build a clothing shopping app for the [Dolls Kill brand](https://www.dollskill.com/). The main challenge of this project was to work with the already existing legacy code of the app.
+I help to the [Agile Monkeys](https://www.theagilemonkeys.com/) to build a clothing shopping app for the [Dolls Kill](https://www.dollskill.com/) brand. The main challenge of this project was to work with the already existing legacy code of the app.
 
 ## Visa Inc.
 
