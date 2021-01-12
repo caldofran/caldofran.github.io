@@ -5,6 +5,7 @@
 ## Jobandtalent
 
 _**December 2015 - Present**_
+
 My main responsibility at Jobandtalent is to build new features and improve the product by working in different functional squats. Despite my focus is on the iOS application I am involved in the whole product definition and implementation lifecycle. This could even include developing features on the backend side and contribute to the Android application.
 
 Furthermore, I help the iOS guild to improve the platform infrastructure and tooling.
