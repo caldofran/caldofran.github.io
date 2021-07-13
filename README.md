@@ -2,7 +2,7 @@
 
 ---
 
-## Jobandtalent _**December 2015 - Present**_
+## Jobandtalent (December 2015 - Present)
 
 [Jobandtalent](https://jobandtalent.com/) is a Staffing Agency whose mission is to reduce the operational costs of finding the right workers for the companies. All the services for the workers are provided through Jobandtalent's mobile app.
 
@@ -27,7 +27,7 @@ Nowadays, I have been promoted to the iOS Core Team. My mission is to improve th
 
 Besides, I contribute to the Android app writing small features in Kotlin. I am learning Jetpack Compose to become a better engineer.
 
-## Freelance _**February 2015 - December 2015**_
+## Freelance (February 2015 - December 2015)
 
 I worked as a freelance iOS developer for different clients, in particular:
 
@@ -54,7 +54,7 @@ The main challenges of this project were:
 * Users access management.
 * Fulfill Visa security requirements.
 
-## Next Chance Invest _**July 2014 - January 2015**_
+## Next Chance Invest (July 2014 - January 2015)
 
 iOS Lead Developer at [Next Chance Invest](https://www.linkedin.com/company/nextchance-invest/about/).
 
@@ -75,7 +75,7 @@ My main responsibilities as an iOS Lead developer were:
 * Managing a team of 3 developers.
 * Managing new hirings.
 
-## Minube _**October 2011 - July 2014**_
+## Minube (October 2011 - July 2014)
 
 [Minube](https://www.minube.com/) is a social network for travelers. This company has a main product, the Minube app. This app gives access to the whole content of Minube and also includes features only possible on mobile devices, taking advantage of the device's camera and the GPS among others.
 
@@ -97,7 +97,7 @@ Besides, we developed Minube guides, a template application. Minube sells this p
 * In-app purchases to buy more content.
 * Support for iPhone and iPad.
 
-## Atos Research & Innovation _**June 2008 - March 2011**_
+## Atos Research & Innovation (June 2008 - March 2011)
 
 I started my engineering career as part of the Security Lab, carrying out managerial and development tasks in several projects for the European Community.
 
@@ -105,11 +105,11 @@ I started my engineering career as part of the Security Lab, carrying out manage
 
 ---
 
-## Universidad Oberta de Catalunya _**2010 - 2012**_
+## Universidad Oberta de Catalunya (2010 - 2012)
 
 Master's Degree in Open Source Software
 
-## Universidad de Valladolid _**2001 - 2007**_
+## Universidad de Valladolid (2001 - 2007)
 
 Bachelor's Degree in Telecommunications Engineering
 
