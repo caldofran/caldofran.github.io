@@ -57,7 +57,7 @@ const jsonLd = {
       <section class="section summary" aria-labelledby="summary-title">
         <h2 id="summary-title">{labels.sections.summary}</h2>
         <p>{cv.profile.summary}</p>
-        {cv.meta.status === 'draft' && <p class="draft-note">Content pending final CV import and review.</p>}
+        {cv.meta.status === 'draft' && <p class="draft-note">Content imported and pending final review.</p>}
       </section>
 
       {hasItems(cv.experience) && (
