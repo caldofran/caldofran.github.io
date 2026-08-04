@@ -1,0 +1,195 @@
+---
+import { labels } from '@/lib/labels';
+import { loadCvData } from '@/lib/cv';
+import '@/styles/global.css';
+
+const cv = await loadCvData();
+const pdfHref = `/${cv.meta.pdfFilename}`;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).toString() : Astro.url.toString();
+
+const hasItems = (items: unknown[]) => items.length > 0;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: cv.profile.name,
+  jobTitle: cv.profile.headline,
+  email: cv.profile.email,
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: cv.profile.location,
+  },
+  url: canonical,
+  sameAs: cv.profile.links.map((link) => link.url),
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{cv.profile.name} | {cv.profile.headline}</title>
+    <meta name="description" content={`${cv.profile.name}, ${cv.profile.headline} in ${cv.profile.location}.`} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={`${cv.profile.name} | ${cv.profile.headline}`} />
+    <meta property="og:description" content={cv.profile.summary} />
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">{labels.skipToContent}</a>
+    <main id="content" class="resume-shell">
+      <header class="resume-header">
+        <div>
+          <p class="eyebrow">{cv.profile.location}</p>
+          <h1>{cv.profile.name}</h1>
+          <p class="headline">{cv.profile.headline}</p>
+        </div>
+        <div class="contact-block" aria-label="Contact links">
+          <a href={`mailto:${cv.profile.email}`}>{cv.profile.email}</a>
+          {cv.profile.links.map((link) => <a href={link.url}>{link.label}</a>)}
+          <a class="pdf-link" href={pdfHref}>{labels.downloadPdf}</a>
+        </div>
+      </header>
+
+      <section class="section summary" aria-labelledby="summary-title">
+        <h2 id="summary-title">{labels.sections.summary}</h2>
+        <p>{cv.profile.summary}</p>
+        {cv.meta.status === 'draft' && <p class="draft-note">Content pending final CV import and review.</p>}
+      </section>
+
+      {hasItems(cv.experience) && (
+        <section class="section" aria-labelledby="experience-title">
+          <h2 id="experience-title">{labels.sections.experience}</h2>
+          <div class="stack">
+            {cv.experience.map((item) => (
+              <article class="entry">
+                <header class="entry-header">
+                  <div>
+                    <h3>{item.role}</h3>
+                    <p>
+                      {item.url ? <a href={item.url}>{item.company}</a> : item.company}
+                      {item.location && <span> · {item.location}</span>}
+                    </p>
+                  </div>
+                  <p class="date-range">{item.start} - {item.end}</p>
+                </header>
+                {item.summary && <p>{item.summary}</p>}
+                {hasItems(item.highlights) && (
+                  <ul>
+                    {item.highlights.map((highlight) => <li>{highlight}</li>)}
+                  </ul>
+                )}
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {hasItems(cv.projects) && (
+        <section class="section" aria-labelledby="projects-title">
+          <h2 id="projects-title">{labels.sections.projects}</h2>
+          <div class="stack">
+            {cv.projects.map((item) => (
+              <article class="entry">
+                <header class="entry-header">
+                  <div>
+                    <h3>{item.url ? <a href={item.url}>{item.name}</a> : item.name}</h3>
+                    {item.role && <p>{item.role}</p>}
+                  </div>
+                </header>
+                {item.summary && <p>{item.summary}</p>}
+                {hasItems(item.highlights) && (
+                  <ul>
+                    {item.highlights.map((highlight) => <li>{highlight}</li>)}
+                  </ul>
+                )}
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {hasItems(cv.education) && (
+        <section class="section" aria-labelledby="education-title">
+          <h2 id="education-title">{labels.sections.education}</h2>
+          <div class="stack">
+            {cv.education.map((item) => (
+              <article class="entry">
+                <header class="entry-header">
+                  <div>
+                    <h3>{item.degree}</h3>
+                    <p>
+                      {item.institution}
+                      {item.location && <span> · {item.location}</span>}
+                    </p>
+                  </div>
+                  <p class="date-range">{item.start} - {item.end}</p>
+                </header>
+                {item.summary && <p>{item.summary}</p>}
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {hasItems(cv.skills) && (
+        <section class="section" aria-labelledby="skills-title">
+          <h2 id="skills-title">{labels.sections.skills}</h2>
+          <div class="tag-groups">
+            {cv.skills.map((group) => (
+              <div>
+                <h3>{group.label}</h3>
+                <p>{group.items.join(', ')}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {hasItems(cv.languages) && (
+        <section class="section compact-list" aria-labelledby="languages-title">
+          <h2 id="languages-title">{labels.sections.languages}</h2>
+          <ul>
+            {cv.languages.map((item) => (
+              <li>
+                <span>{item.language}</span>
+                {item.fluency && <span>{item.fluency}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {hasItems(cv.publications) && (
+        <section class="section compact-list" aria-labelledby="publications-title">
+          <h2 id="publications-title">{labels.sections.publications}</h2>
+          <ul>
+            {cv.publications.map((item) => (
+              <li>
+                <span>{item.url ? <a href={item.url}>{item.title}</a> : item.title}</span>
+                <span>{[item.publisher, item.date].filter(Boolean).join(' · ')}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {hasItems(cv.certifications) && (
+        <section class="section compact-list" aria-labelledby="certifications-title">
+          <h2 id="certifications-title">{labels.sections.certifications}</h2>
+          <ul>
+            {cv.certifications.map((item) => (
+              <li>
+                <span>{item.url ? <a href={item.url}>{item.title}</a> : item.title}</span>
+                <span>{[item.issuer, item.date].filter(Boolean).join(' · ')}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </main>
+  </body>
+</html>

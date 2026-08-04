@@ -1,0 +1,19 @@
+name: CV task
+description: Track a scoped CV website task
+title: '[CV] '
+labels: ['agent-ready']
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What should change?
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: Checks, artifacts, and acceptance criteria.
+    validations:
+      required: true

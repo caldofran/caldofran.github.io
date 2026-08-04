@@ -1,0 +1,28 @@
+meta:
+  locale: en
+  updatedAt: '2026-08-04'
+  pdfFilename: test-resume.txt
+
+profile:
+  name: Example Person
+  headline: Software Engineer
+  location: Madrid, Spain
+  email: not-an-email
+  summary: Builds <strong>things</strong>.
+  links:
+    - label: Website
+      url: not-a-url
+
+experience:
+  - company: Example Co
+    role: Senior Engineer
+    start: '2022'
+    end: Present
+    url: also-not-a-url
+
+projects: []
+education: []
+skills: []
+languages: []
+publications: []
+certifications: []
