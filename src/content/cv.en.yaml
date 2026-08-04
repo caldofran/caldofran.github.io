@@ -2,22 +2,152 @@ meta:
   locale: en
   updatedAt: '2026-08-04'
   pdfFilename: ruben-mendez-resume.pdf
-  status: draft
+  status: approved
 
 profile:
   name: Rubén Méndez
-  headline: Software Engineer
-  location: Madrid, Spain
+  headline: Senior iOS Engineer
+  location: Valladolid, Spain
   email: ruben.mendez@gmail.com
-  summary: This public CV is pending import from the latest reviewed resume.
+  summary: iOS Engineer with over 17 years of experience working in different product companies. Considered a very versatile and pragmatic engineer.
   links:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/rubenmendezp
     - label: GitHub
       url: https://github.com/caldofran
 
-experience: []
+experience:
+  - company: DNA.inc
+    role: Senior Apple Engineer
+    location: Remote
+    start: May 2023
+    end: Current
+    summary: Work at this agency helping other companies build their products. Currently working for SiriusXM, building the Playback experience for its streaming app.
+    highlights:
+      - Building a custom player to support many different types of content.
+      - Building the offline experience of the app.
+      - Mentoring developers through pairing sessions and workshops.
+
+  - company: Univer.se
+    role: Senior iOS Developer
+    location: Remote
+    start: Feb 2022
+    end: Mar 2023
+    summary: Worked in cross-functional teams to build the univer.se app.
+    highlights:
+      - Building core features of the app.
+      - Improving the app architecture and performance.
+      - Helping the product and design team to define new features.
+      - Mentoring junior developers through pairing sessions and workshops.
+    url: https://univer.se
+
+  - company: Jobandtalent
+    role: Senior iOS Engineer
+    location: Madrid, Spain
+    start: Dec 2015
+    end: Feb 2022
+    summary: Worked in cross-functional teams to build the Jobandtalent app.
+    highlights:
+      - Built reusable UI components for the design system.
+      - Improved developer experience through better app architecture and tooling.
+      - Wrote API endpoints in Elixir for the Phoenix framework.
+      - Worked with the Android team writing features in Kotlin.
+      - Mentored junior developers through pairing sessions and workshops.
+    url: https://www.jobandtalent.com
+
+  - company: Agile Monkeys
+    role: Freelance iOS Engineer
+    location: Madrid, Spain
+    start: Jun 2015
+    end: Dec 2015
+    summary: Collaborated with Agile Monkeys digital studio to build a clothing shopping app for the Dolls Kill brand.
+    highlights:
+      - Mentored junior developers.
+      - Prepared workshops and pairing sessions to coach good development practices.
+    url: https://www.theagilemonkeys.com
+
+  - company: Visa Inc
+    role: Freelance iOS Engineer
+    location: Madrid, Spain
+    start: Jan 2015
+    end: Jun 2015
+    summary: Developed an enterprise iPad app called Visa Card Lab used by the Visa sales department to present different credit card designs to business customers.
+    highlights:
+      - Built a totally custom UI and interactive animations using the POP Framework.
+      - Supported offline work using CoreData.
+      - Fulfilled Visa security requirements by encrypting documents and using other security techniques.
+    url: https://www.visa.com
+
+  - company: Next Chance Invest
+    role: Lead iOS Engineer
+    location: Madrid, Spain
+    start: Jul 2014
+    end: Jan 2015
+    summary: Managed a team of 3 iOS developers in charge of developing the Critizen app, a mobile app where users can complain and criticize products and services.
+    highlights:
+      - Supported offline work using CoreData.
+      - Used AVFoundation to embed auto-playable videos.
+      - Applied VIPER for the application architecture.
+
+  - company: Minube
+    role: iOS Engineer
+    location: Madrid, Spain
+    start: Oct 2011
+    end: Jul 2014
+    summary: Developed this traveler's social network app for iPhone and iPad using CoreData, CoreLocation, MapKit, and StoreKit.
+    highlights:
+      - Built features for the iPhone and iPad apps.
+      - Worked with offline storage, location, maps, and in-app purchases.
+      - Contributed to the app awarded Best app in Spain for iPhone in 2011.
+    url: https://www.minube.com
+
+  - company: Atos
+    role: Research Engineer
+    location: Valladolid, Spain
+    start: Jun 2008
+    end: Mar 2011
+    summary: Started my engineering career as part of the Security Lab, carrying out managerial and development tasks in several projects for the European Community.
+
 projects: []
-education: []
-skills: []
+
+education:
+  - institution: Universidad Oberta de Catalunya
+    degree: Master's Degree in Open Source Software
+    location: Spain
+    start: '2010'
+    end: '2012'
+
+  - institution: Universidad de Valladolid
+    degree: Bachelor's Degree in Telecommunications Engineering
+    location: Valladolid, Spain
+    start: '2001'
+    end: '2007'
+
+skills:
+  - label: Apple platforms
+    items:
+      - Swift
+      - SwiftUI
+      - SPM
+      - iOS
+
+  - label: Backend and tooling
+    items:
+      - Kotlin
+      - Elixir
+      - Phoenix
+
+  - label: Product engineering
+    items:
+      - Design systems
+      - Cross-functional collaboration
+      - Mentoring
+
 languages: []
-publications: []
+
+publications:
+  - title: The Navigator - Another Twist to iOS Navigations
+    publisher: Jobandtalent Engineering
+    url: https://jobandtalent.engineering/the-navigator-420b24fc57da
+
 certifications: []
