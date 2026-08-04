@@ -1,0 +1,37 @@
+{
+  "name": "caldofran-github-io-cv",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "validate:content": "tsx scripts/validate-content.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "ASTRO_TELEMETRY_DISABLED=1 astro check",
+    "test": "vitest run",
+    "build": "npm run validate:content && ASTRO_TELEMETRY_DISABLED=1 astro build && tsx scripts/generate-pdf.ts",
+    "test:e2e": "playwright test",
+    "ci": "npm run format:check && npm run typecheck && npm test && npm run build && npm run test:e2e"
+  },
+  "dependencies": {
+    "yaml": "^2.8.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.54.0",
+    "@types/node": "^26.1.2",
+    "astro": "^7.1.6",
+    "playwright": "^1.54.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}

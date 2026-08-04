@@ -1,0 +1,23 @@
+meta:
+  locale: en
+  updatedAt: '2026-08-04'
+  pdfFilename: ruben-mendez-resume.pdf
+  status: draft
+
+profile:
+  name: Rubén Méndez
+  headline: Software Engineer
+  location: Madrid, Spain
+  email: ruben.mendez@gmail.com
+  summary: This public CV is pending import from the latest reviewed resume.
+  links:
+    - label: GitHub
+      url: https://github.com/caldofran
+
+experience: []
+projects: []
+education: []
+skills: []
+languages: []
+publications: []
+certifications: []

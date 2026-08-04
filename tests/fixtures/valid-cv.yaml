@@ -1,0 +1,39 @@
+meta:
+  locale: en
+  updatedAt: '2026-08-04'
+  pdfFilename: test-resume.pdf
+  status: approved
+
+profile:
+  name: Example Person
+  headline: Software Engineer
+  location: Madrid, Spain
+  email: example@example.com
+  summary: Builds reliable web products.
+  links:
+    - label: GitHub
+      url: https://github.com/example
+
+experience:
+  - company: Example Co
+    role: Senior Engineer
+    location: Remote
+    start: '2022'
+    end: Present
+    summary: Led product engineering work.
+    highlights:
+      - Improved deployment reliability.
+    url: https://example.com
+
+projects: []
+education: []
+skills:
+  - label: Engineering
+    items:
+      - TypeScript
+      - Distributed systems
+languages:
+  - language: English
+    fluency: Professional
+publications: []
+certifications: []
