@@ -8,7 +8,7 @@ profile:
   name: Rubén Méndez
   headline: Senior iOS Engineer
   location: Valladolid, Spain
-  email: ruben.mendez@gmail.com
+  email: rubenmen@pm.me
   summary: iOS Engineer with over 17 years of experience working in different product companies. Considered a very versatile and pragmatic engineer.
   links:
     - label: LinkedIn
@@ -18,7 +18,7 @@ profile:
 
 experience:
   - company: DNA.inc
-    role: Senior Apple Engineer
+    role: Lead Apple Engineer
     location: Remote
     start: May 2023
     end: Current
@@ -27,6 +27,7 @@ experience:
       - Building a custom player to support many different types of content.
       - Building the offline experience of the app.
       - Mentoring developers through pairing sessions and workshops.
+    url: https://www.dna.inc/
 
   - company: Univer.se
     role: Senior iOS Developer
